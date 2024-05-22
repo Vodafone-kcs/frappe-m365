@@ -10,6 +10,8 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+override_email_send = "frappe_m365.utils.utils.send_email_m365"
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/frappe_m365/css/frappe_m365.css"
 app_include_js = "/assets/frappe_m365/js/frappe_m365.js"
